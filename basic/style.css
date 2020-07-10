@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.myStyle{
+  font-size: 25px;
+  padding: 10px;
+  color: purple;
+  width:80vw;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  top: 25vh;
+  border: 50px solid;
+  border-image: linear-gradient(-160deg, #F6C005 ,#FDAD5E,#FFD2CD) 1;
+  border-image-outset:30px;
+}
